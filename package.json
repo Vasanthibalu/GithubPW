@@ -1,0 +1,21 @@
+{
+  "name": "playwright_auto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "regression": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.8.0",
+    "allure-playwright": "^3.9.0"
+  },
+  "dependencies": {
+    "exceljs": "^4.3.0"
+  }
+}

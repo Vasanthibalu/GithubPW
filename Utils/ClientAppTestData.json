@@ -1,0 +1,18 @@
+[{
+    "userName": "9876@gmail.com",
+    "password": "Vasanthi@123",
+    "productName": "iphone 13 pro",
+    "creditCardNumber": "1235 4567 8901 2345",
+    "cvv":  "233",
+    "creditCardName" : "Vasanthi G",
+    "couponCode" : "Bala",
+    "invalidCouponCode": "* Invalid Coupon",
+    "countryName": " India"
+
+},
+
+{
+    "userName": "9876@gmail.com",
+    "password": "Vasanthi@123",
+    "productName": "Adidas Originals"
+}]
