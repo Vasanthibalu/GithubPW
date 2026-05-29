@@ -10,6 +10,7 @@ test('Angular get by',async ({page})=>
     await page.getByTitle("ProtoCommerce").isVisible()
     await page.getByRole("link",{name:'Shop'}).click()
     await page.locator(".card-title").filter({hasText:'Nokia Edge'}).getByRole("button").click()
+    console.log("hgvy")
 })
 
 test('Client app using getby details',async ({page})=>

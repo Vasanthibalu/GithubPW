@@ -32,6 +32,10 @@ test('@Assignment Session 9 Assignment1',async ({page})=>
     await page.getByRole("button",{name:'+ Add Event'}).click()
     await expect(page.locator(".leading-snug")).toHaveText("Event created!")
 
+    console.log("developed c")
+    console.log("developed TT")
+    console.log("developedWW")
+    console.log("developed UU")
     //step3
     await page.locator("#nav-events").click()
     await page.locator("[data-testid='event-card']").first().waitFor()
