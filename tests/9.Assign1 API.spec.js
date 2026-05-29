@@ -18,7 +18,9 @@ test.beforeAll( async ()=>
     const loginResponseJson = await loginResponse.json()
     token = loginResponseJson.token
     console.log(token)
-   
+    console.log("GithubfromX")
+    console.log("GithubfromX22")
+    console.log("GithubfromX22678")   
 })
 
 
