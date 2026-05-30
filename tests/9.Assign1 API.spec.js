@@ -19,8 +19,6 @@ test.beforeAll( async ()=>
     token = loginResponseJson.token
     console.log(token)
     console.log("GithubfromX")
-    console.log("GithubfromX22")
-    console.log("GithubfromX22678")  
     console.log("conflict1") 
 })
 
